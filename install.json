@@ -1,0 +1,31 @@
+{
+  "run": [
+    {
+      "method": "shell.run",
+      "params": {
+        "message": "git clone https://github.com/israelandrewbrown/storyboarder-otio.git app",
+        "path": "."
+      }
+    },
+    {
+      "method": "shell.run",
+      "params": {
+        "message": "npm install",
+        "path": "app"
+      }
+    },
+    {
+      "method": "shell.run",
+      "params": {
+        "message": "pip install opentimelineio",
+        "venv": "env"
+      }
+    },
+    {
+      "method": "notify",
+      "params": {
+        "html": "Installation complete! You can now launch Storyboarder."
+      }
+    }
+  ]
+}

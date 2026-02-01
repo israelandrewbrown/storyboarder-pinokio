@@ -1,0 +1,12 @@
+{
+  "run": [
+    {
+      "method": "shell.run",
+      "params": {
+        "message": "npm start",
+        "path": "app",
+        "venv": "env"
+      }
+    }
+  ]
+}
