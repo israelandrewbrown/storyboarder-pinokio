@@ -3,7 +3,7 @@
     {
       "method": "shell.run",
       "params": {
-        "message": "git clone https://github.com/israelandrewbrown/storyboarder-pinokio.git app",
+        "message": "git clone -b feature/otio-batch-audio https://github.com/israelandrewbrown/storyboarder-pinokio.git app",
         "path": "."
       }
     },
