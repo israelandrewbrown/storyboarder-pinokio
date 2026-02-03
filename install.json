@@ -10,7 +10,7 @@
     {
       "method": "shell.run",
       "params": {
-        "message": "npm install",
+        "message": "npm install -g electron-builder && npm install",
         "path": "app"
       }
     },
