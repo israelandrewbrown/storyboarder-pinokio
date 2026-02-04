@@ -23,13 +23,6 @@
     {
       "method": "shell.run",
       "params": {
-        "message": "npm install",
-        "path": "app"
-      }
-    },
-    {
-      "method": "shell.run",
-      "params": {
         "message": "pip install opentimelineio",
         "venv": "env"
       }
